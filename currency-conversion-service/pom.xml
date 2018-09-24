@@ -69,8 +69,23 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			<!-- <plugin>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplication</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin> -->
 		</plugins>
 	</build>
+	
+	
+        
+
 
 	<repositories>
 		<repository>
