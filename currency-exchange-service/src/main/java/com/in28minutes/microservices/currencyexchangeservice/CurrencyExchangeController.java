@@ -3,7 +3,7 @@ package com.in28minutes.microservices.currencyexchangeservice;
 import java.math.BigDecimal;
 import java.util.logging.Logger;
 
-import org.hibernate.annotations.common.util.impl.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
